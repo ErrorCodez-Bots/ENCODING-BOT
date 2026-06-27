@@ -22,6 +22,7 @@ bot_token = getenv("BOT_TOKEN")
 
 database = getenv("MONGO_URI")
 session = getenv("SESSION_NAME")
+PORT = int(os.environ.get("PORT", 8080))
 
 drive_dir = getenv("DRIVE_DIR")
 index = getenv("INDEX_URL")
